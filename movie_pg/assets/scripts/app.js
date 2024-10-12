@@ -7,7 +7,7 @@ const userInputs = addMovieModal.querySelectorAll("input");
 const entryTextSection = document.getElementById("entry-text");
 const deleteModal = document.getElementById("delete-modal");
 
-const movies = []; //Arr where movies will be stored.
+const movies = [];
 
 const toggleMovieModal = () => {
   addMovieModal.classList.toggle("visible");
